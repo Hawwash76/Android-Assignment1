@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:text="Welcome to the Body Mass Index Calculator!"
+            android:textColor="#000000"
+            android:textSize="13pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:text="Enter your height and weight, and the program will calculate your body mass index."
+            android:textColor="#000000"
+            android:textSize="8pt" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="Enter Height (cm)"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/heightTxt"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="Enter Weight (kg)"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/weightTxt"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#E37B20"
+            android:onClick="calculateBMI"
+            android:text="Calculate" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center">>
+
+        <TextView
+            android:id="@+id/bmiResult"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="Please Enter the Info Above"
+            android:textColor="#000000" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <Button
+
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="0.4"
+            android:backgroundTint="#E37B20"
+            android:onClick="btnSave"
+            android:text="Save" />
+
+        <Button
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="0.4"
+            android:backgroundTint="#E37B20"
+            android:onClick="btnLoad"
+            android:text="Load" />
+    </TableRow>
+
+</TableLayout>

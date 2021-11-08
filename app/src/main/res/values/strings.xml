@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Individual Assignment</string>
+    <string name="textview">TextView</string>
+    <string-array name="fitness_options">
+        <item>Food</item>
+        <item>Fitness</item>
+        <item>Yoga</item>
+    </string-array>
+
+    <string-array name="food">
+        <item>A daily multivitamin is a great nutrition insurance policy. Some extra vitamin D may add an extra health boost.</item>
+        <item>Eating less salt is good for everyone’s health. Choose more fresh foods and fewer processed foods.</item>
+        <item>Water is best to quench your thirst. Skip the sugary drinks, and go easy on the milk and juice.</item>
+    </string-array>
+
+    <string-array name="exercise">
+        <item>Be Sure to Get Sleep</item>
+        <item>Keep Track of Calories and Food Intake Per Day</item>
+        <item>Put some Endurance Exercise in your Plan</item>
+    </string-array>
+
+    <string-array name="yoga">
+        <item>Wear comfortable clothing</item>
+        <item>Use a clean non-slip mat</item>
+        <item>Don’t rush yourself through each pose or the class</item>
+    </string-array>
+</resources>
