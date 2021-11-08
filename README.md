@@ -1,9 +1,9 @@
 # Android-Assignment1
 Individual Assignment #1
 
-to access files, switch to the master branch
+**Noteto access files, switch to the master branch
 
-#**Contet**
+# Content
 
 Fitness app that consists of three activities:
 
