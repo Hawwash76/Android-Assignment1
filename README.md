@@ -1,7 +1,7 @@
 # Android-Assignment1
 Individual Assignment #1
 
-**Noteto access files, switch to the master branch
+**Note** To access files, switch to the master branch
 
 # Content
 
